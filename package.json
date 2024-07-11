@@ -2,8 +2,10 @@
   "name": "test-trial-consumer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {},
+  "main": "main.js",
+  "scripts": {
+    "start": "func start --javascript"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,7 +15,7 @@
   "bundledDependencies": true,
   "files": [
     "**/function.json",
-    "dist",
+    "main.js",
     "host.json",
     "extensions.csproj"
   ]
