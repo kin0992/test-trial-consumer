@@ -1,5 +1,9 @@
-# Created by https://www.toptal.com/developers/gitignore/api/node,emacs,macos,intellij+all
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,emacs,macos,intellij+all
+# Created by https://www.toptal.com/developers/gitignore/api/node,emacs,macos,intellij+all,azurefunctions
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,emacs,macos,intellij+all,azurefunctions
+
+### AzureFunctions ###
+# Azure Functions localsettings file
+local.settings.json
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
@@ -313,4 +317,4 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
-# End of https://www.toptal.com/developers/gitignore/api/node,emacs,macos,intellij+all
+# End of https://www.toptal.com/developers/gitignore/api/node,emacs,macos,intellij+all,azurefunctions
