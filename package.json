@@ -18,5 +18,11 @@
     "main.js",
     "host.json",
     "extensions.csproj"
+  ],
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.0.5907"
+  },
+  "bundleDependencies": [
+    "@azure/functions"
   ]
 }
