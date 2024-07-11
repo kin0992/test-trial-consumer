@@ -2,6 +2,7 @@ const { app } = require('@azure/functions');
 
 app.serviceBusQueue('queueConsumer', {
     connection: 'ServiceBusConnection',
+    cardinality: 'many',
     queueName: '01J2EF7KK8WQTJSNXXVPQ4TVG1',
     handler: (message, context) => {
         context.log('Service bus queue function processed message:', message);
